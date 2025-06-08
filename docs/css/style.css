@@ -108,6 +108,7 @@ section {
   }
 }
 
+/* Footer styles */
 footer {
   display: flex;
   justify-content: space-between;
@@ -119,21 +120,23 @@ footer {
   color: #555;
 }
 
-.footer-left a {
+.footer-center a {
   margin-right: 10px;
   text-decoration: none;
 }
 
-.footer-left img {
+.footer-center img {
   vertical-align: middle;
   opacity: 0.6;
   transition: opacity 0.3s;
 }
 
-.footer-left img:hover {
+.footer-center img:hover {
   opacity: 1;
 }
 
-.footer-right {
-  text-align: right;
+.footer-right p {
+  color: #888;
+  font-size: 0.8em;
+  margin: 0;
 }
