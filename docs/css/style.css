@@ -1,4 +1,7 @@
-/* Reset some default styles */
+/* Import Inter font via @import if not in HTML */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Reset defaults */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +9,14 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
   padding-bottom: 40px;
 }
 
+/* Header styles */
 header {
   background-color: #fff;
   padding: 1rem 2rem;
@@ -25,9 +29,10 @@ header {
 
 header h1 {
   font-size: 1.8rem;
-  color: #007acc;
+  color: #000;
 }
 
+/* Navigation styles */
 nav ul {
   list-style: none;
   display: flex;
@@ -46,21 +51,25 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+/* Main content styles */
 main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+}
+
 h2 {
   font-size: 1.75rem;
-  color: #333;
   margin-bottom: 1rem;
 }
 
 h3 {
   font-size: 1.3rem;
-  color: #007acc;
   margin-top: 2rem;
 }
 
@@ -85,7 +94,7 @@ section {
   border-bottom: 1px solid #e0e0e0;
 }
 
-/* Responsive adjustments */
+/* Responsive design */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
