@@ -107,3 +107,33 @@ section {
     margin-top: 0.5rem;
   }
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  border-top: 1px solid #ccc;
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.footer-left a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.footer-left img {
+  vertical-align: middle;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.footer-left img:hover {
+  opacity: 1;
+}
+
+.footer-right {
+  text-align: right;
+}
