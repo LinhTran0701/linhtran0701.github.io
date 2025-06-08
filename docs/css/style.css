@@ -91,7 +91,9 @@ ul li {
 section {
   margin-bottom: 2.5rem;
   padding-bottom: 1rem;
+  /* 
   border-bottom: 1px solid #e0e0e0;
+  */
 }
 
 /* Responsive design */
